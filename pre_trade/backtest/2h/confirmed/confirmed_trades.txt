@@ -1,0 +1,10 @@
+1.
+pair AVAX ATOM
+timeframe 2h
+threshold 2
+period 29
+2.
+pair ALGO NEAR
+timeframe 2h
+threshold 2
+period 39 

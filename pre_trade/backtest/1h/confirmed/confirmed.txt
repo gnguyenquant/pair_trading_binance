@@ -1,0 +1,5 @@
+1.
+pair DOT ATOM
+timeframe 1h
+threshold 3
+period 56
