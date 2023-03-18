@@ -20,8 +20,7 @@ II. Backtest
 
 III. Bot
 1. The apikey and secret for Binance API must be provided in Binancelogin.py
-2. In main file is bot_pairtrading_***_***.py
-3. Provide your optimized parameters in the file and run it.
-4. The realtime data is saved in the .csv files and positions.txt.
+2. Provide your optimized parameters in the main file bot_pairtrading_***_***.py and run it.
+3. The realtime data is saved in the .csv files and positions.txt.
 
 That's it! Hope you guys make some money!
