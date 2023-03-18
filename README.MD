@@ -1,6 +1,7 @@
 This is a pair trading strategy in Binance writen by Giang Truong Nguyen.
 
 PRETRADE
+
 I. Find pairs
 1. Calculate log(TWAP_price) of both price series
 2. Calculate the correlation between them.
