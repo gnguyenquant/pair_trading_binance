@@ -1,7 +1,5 @@
 This is a pair trading strategy in Binance writen by Giang Truong Nguyen.
 
-PRETRADE
-
 I. Find pairs
 1. Calculate log(TWAP_price) of both price series
 2. Calculate the correlation between them.
@@ -19,3 +17,11 @@ II. Backtest
 4. The data set is split into traing and test sets.
 5. The training set is to optimize the parameters while the test set is to verify them.
 6. PnL plot, Sharpe ratio and fee over PnL are computed and saved in the results folder.
+
+III. Bot
+1. The apikey and secret for Binance API must be provided in Binancelogin.py
+2. In main file is bot_pairtrading_***_***.py
+3. Provide your optimized parameters in the file and run it.
+4. The realtime data is saved in the .csv files and positions.txt.
+
+That's it! Hope you guys make some money!
