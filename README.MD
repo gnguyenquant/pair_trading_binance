@@ -12,7 +12,7 @@ I. Find pairs
 
 II. Backtest
 1. There are only two parameters: entry_threshold and periods.
-2. Stoploss_threshold and takeprofit_threshold are predefined as entry_threshold+1 and 0.
+2. Stoploss_threshold and takeprofit_threshold are predefined as entry_threshold+1 and 0. You can further optimize them if you want.
 3. A bashscript run_pairtrading.sh is provided to automate the backtest procedure.
 4. The data set is split into traing and test sets.
 5. The training set is to optimize the parameters while the test set is to verify them.
